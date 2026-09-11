@@ -9,13 +9,15 @@ package-mode = false  # TODO: later should delete?
 
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.13"
+python = ">=3.12,<3.13"
 jinja2 = "^3.1.5"
 ipykernel = "^6.29.5"
 taipy="4.1.0"
 plotly = "^6.3.1"
 clickhouse-connect = "^0.9.2"
 mlflow = "^2.20.3"
+shapiq = "^1.7.0"
+shap = "^0.52.0"
 
 
 [tool.poetry.group.dev-model]
@@ -23,7 +25,7 @@ optional=true
 
 
 [tool.poetry.group.dev-model.dependencies]
-python = ">=3.9,<3.13"
+python = ">=3.12,<3.13"
 
 
 [tool.poetry.group.stage-model]
@@ -31,7 +33,7 @@ optional=true
 
 
 [tool.poetry.group.stage-model.dependencies]
-python = ">=3.9,<3.13"
+python = ">=3.12,<3.13"
 mlflow = "^2.20.3"
 
 [tool.poetry.group.dev.dependencies]
