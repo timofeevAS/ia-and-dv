@@ -1,14 +1,15 @@
 [tool.poetry]
-name = "my_project_name"
+name = "ia-and-dv"
 version = "0.1.0"
-description = ""
-authors = ["my_name"]
+description = "study project for master study course in SPBSTU"
+authors = ["alexandr", "margaret", "julia"]
 readme = "README.md"
-exclude = [ "**/tests/**", "*.test", "*.test.*", "test.*", "test" ]
+exclude = [  ]
+package-mode = false  # TODO: later should delete?
 
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.12"
+python = ">=3.9,<3.13"
 jinja2 = "^3.1.5"
 ipykernel = "^6.29.5"
 taipy="4.1.0"
@@ -22,7 +23,7 @@ optional=true
 
 
 [tool.poetry.group.dev-model.dependencies]
-python = ">=3.10,<3.12"
+python = ">=3.9,<3.13"
 
 
 [tool.poetry.group.stage-model]
@@ -30,7 +31,7 @@ optional=true
 
 
 [tool.poetry.group.stage-model.dependencies]
-python = ">=3.10,<3.12"
+python = ">=3.9,<3.13"
 mlflow = "^2.20.3"
 
 [tool.poetry.group.dev.dependencies]
