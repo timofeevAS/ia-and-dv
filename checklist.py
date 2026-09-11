@@ -16,4 +16,13 @@ else:
     print("Python version is not in the range 3.9-3.13")
     raise Exception("Checklist step 1: [ ] Python 3.9–3.13 is not completed.")
 
-    
+# Step 2. Poetry:
+# To install poetry, run the following command in your terminal:
+# curl -sSL https://install.python-poetry.org | python3 -
+
+try:
+    import poetry
+    print("[+] Poetry is installed.")
+except ImportError:
+    print("Poetry is not installed.")
+    raise Exception("Checklist step 2: [ ] Poetry is not completed.")
