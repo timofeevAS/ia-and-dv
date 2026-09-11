@@ -31,3 +31,7 @@ except ImportError:
 # To install VS Code, visit https://code.visualstudio.com/ and download the installer.
 # 
 # Follow .vscode/extensions.json file to install the recommended extensions.
+# Or use:
+#   code --install-extension ms-python.python
+#   code --install-extension ms-toolsai.jupyter
+# Check it manually.
