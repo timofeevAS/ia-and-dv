@@ -1,6 +1,6 @@
 # Python script which go through a checklist and prints out the items that are not completed.
 # Original checklist from TASK.md file:
-#  [ x ] Python 3.9–3.13; 
+#  [ ] Python 3.9–3.13; 
 #  [ ] Poetry; 
 #  [ ] VS Code + расширения; 
 #  [ ] `poetry install` без ошибок; 
