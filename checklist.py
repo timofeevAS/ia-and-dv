@@ -26,3 +26,8 @@ try:
 except ImportError:
     print("Poetry is not installed.")
     raise Exception("Checklist step 2: [ ] Poetry is not completed.")
+
+# Step 3. VS Code + extensions:
+# To install VS Code, visit https://code.visualstudio.com/ and download the installer.
+# 
+# Follow .vscode/extensions.json file to install the recommended extensions.
